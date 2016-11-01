@@ -13,7 +13,9 @@
  * 4. 带虚函数的类:虚函数放在虚表中，类中定义了虚函数，需要存放一个指向虚表的指针。
  * 5. 继承相关
  *      参考文章：http://www.cnblogs.com/kekec/archive/2013/01/27/2822872.html
- *         
+ * 6. other
+ *      利用VS命令行 ：Visual Studio Command Prompt
+ *      cl /d1 reportSingleClassLayout类名 des.cpp  //可以打印相应类的内存模型 
  */
 #include <iostream>
 using namespace std;
